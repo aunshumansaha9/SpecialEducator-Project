@@ -1,0 +1,20 @@
+body {
+	background-color: #D5DBDB;
+	background-image: url(/images/bg4_2.png);
+}
+#SignupContent {
+	min-width: 500px;
+	backgroud-color: white;
+	border-radius: 4px;
+ 	min-height:500px;
+}
+
+@media screen and (min-width: 500px; min-height:500px;) {
+	#SignupContent {
+		height: 100%;
+	}
+	#materialToolbar {
+		padding: 10px;
+		
+	}
+}
